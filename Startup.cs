@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Http;
 
 using RazorPagesMovie.Data;
 using Microsoft.EntityFrameworkCore;
@@ -41,6 +42,16 @@ namespace RazorPagesMovie
                     Configuration.GetConnectionString("MovieContext")));
             }
 
+            //AGREGANDO COOKIE DE POLITICA DE LEY DE DATOS.
+            services.Configure<CookiePolicyOptions>(options =>
+        {
+            // This lambda determines whether user consent for non-essential 
+            // cookies is needed for a given request.
+            options.CheckConsentNeeded = context => true;
+            // requires using Microsoft.AspNetCore.Http;
+            options.MinimumSameSitePolicy = SameSiteMode.None;
+        });
+
             services.AddRazorPages();
         }
 
@@ -60,7 +71,7 @@ namespace RazorPagesMovie
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseCookiePolicy();
             app.UseRouting();
 
             app.UseAuthorization();

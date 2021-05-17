@@ -344,3 +344,4 @@ C:\Users\dotexemx\Google Drive\Semestres (trabajos, proyectos, etc)\10mo Semestr
 C:\Users\dotexemx\Google Drive\Semestres (trabajos, proyectos, etc)\10mo Semestre (Ultimo)\PROGRAMACION WEB II\RazorPagesMovie\obj\Debug\net5.0\RazorPagesMovie.Views.pdb
 C:\Users\dotexemx\Google Drive\Semestres (trabajos, proyectos, etc)\10mo Semestre (Ultimo)\PROGRAMACION WEB II\RazorPagesMovie\obj\Debug\net5.0\RazorPagesMovie.csproj.CopyComplete
 C:\Users\dotexemx\Google Drive\Semestres (trabajos, proyectos, etc)\10mo Semestre (Ultimo)\PROGRAMACION WEB II\RazorPagesMovie\obj\Debug\net5.0\RazorPagesMovie.genruntimeconfig.cache
+C:\Users\dotexemx\Google Drive\Semestres (trabajos, proyectos, etc)\10mo Semestre (Ultimo)\PROGRAMACION WEB II\RazorPagesMovie\obj\Debug\net5.0\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
